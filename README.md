@@ -14,9 +14,7 @@ Summary: A Launcher for JupyterLab based applications.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/jupyterlab_launcher-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/jupyterlab_launcher-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/jupyterlab_launcher-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/jupyterlab_launcher-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/jupyterlab_launcher-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/jupyterlab-launcher-feedstock/branch/master)
+All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/jupyterlab_launcher-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/jupyterlab_launcher-feedstock)
 
 Current release info
 ====================
