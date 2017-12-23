@@ -7,7 +7,7 @@ package:
 source:
   fn: jupyterlab_launcher-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/j/jupyterlab_launcher/jupyterlab_launcher-{{ version }}.tar.gz
-  sha256: 2ff86d3f0b6e48a388520ad172fc247721df4f9905eb62ef47a1ef5fcd955edf
+  sha256: 27319efff02586957154440910087397adec6c191a25275c0e1420fb64a42b5f
 
 build:
     number: 0
