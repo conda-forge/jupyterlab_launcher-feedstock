@@ -21,7 +21,6 @@ requirements:
   run:
     - python
     - notebook
-    - zeromq 4.2.1
 
 test:
   imports:
