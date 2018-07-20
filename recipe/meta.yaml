@@ -1,4 +1,4 @@
-{% set version = "0.11.0" %}
+{% set version = "0.11.1" %}
 
 package:
   name: jupyterlab_launcher
@@ -7,7 +7,7 @@ package:
 source:
   fn: jupyterlab_launcher-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/j/jupyterlab_launcher/jupyterlab_launcher-{{ version }}.tar.gz
-  sha256: 2eea0cc95b312e136e6e5abc64e2e62baaeca493cd32f553c2205f79e01c0423
+  sha256: dc3cf295c6c2192318805eb2481ad7976eb16961a50632fd889dcd1db2280aae
 
 build:
     noarch: python
