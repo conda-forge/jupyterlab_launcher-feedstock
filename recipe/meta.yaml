@@ -10,7 +10,6 @@ source:
   sha256: f880eada0b8b1f524d5951dc6fcae0d13b169897fc8a247d75fb5beadd69c5f0
 
 build:
-    noarch: python
     number: 0
     skip: True  # [py2k]
     script: python -m pip install --no-deps --ignore-installed .
