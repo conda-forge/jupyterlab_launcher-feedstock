@@ -10,18 +10,18 @@ source:
   sha256: f880eada0b8b1f524d5951dc6fcae0d13b169897fc8a247d75fb5beadd69c5f0
 
 build:
-    number: 1
-    skip: True  # [py2k]
-    script: python -m pip install --no-deps --ignore-installed .
+    number: 2
+    noarch: python
+    script: python -m pip install --no-deps  --ignore-installed .
 
 requirements:
   host:
     - pip
-    - python
+    - python >=3.5
     - setuptools
 
   run:
-    - python
+    - python >=3.5
     - notebook
 
 test:
