@@ -11,7 +11,7 @@ source:
 
 build:
     number: 2
-    skip: True  # [py2k]
+    noarch: python
     script: python -m pip install --no-deps .
 
 requirements:
@@ -21,7 +21,7 @@ requirements:
     - setuptools
 
   run:
-    - python
+    - python>=3.5
     - notebook
 
 test:
