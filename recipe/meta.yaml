@@ -6,25 +6,27 @@ package:
 
 source:
   fn: jupyterlab_launcher-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/j/jupyterlab_launcher/jupyterlab_launcher-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/j/jupyterlab_launcher/jupyterlab_launcher-{{ version }}.tar.gz
   sha256: f880eada0b8b1f524d5951dc6fcae0d13b169897fc8a247d75fb5beadd69c5f0
 
 build:
-    number: 2
+    number: 3
     noarch: python
     script: python -m pip install --no-deps  --ignore-installed .
 
 requirements:
   host:
     - pip
-    - python >=3.5
+    - python {{ python_min }}
     - setuptools
 
   run:
-    - python >=3.5
+    - python >={{ python_min }}
     - notebook
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - jupyterlab_launcher
 
